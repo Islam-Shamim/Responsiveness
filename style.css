@@ -11,19 +11,17 @@ h2{
 
 .container{
     background-color: white;
+    width:870px;
     height:680px;
-    width: 870px;
-    margin:20px;
     padding:30px;
+    margin:20px;
 }
 .players{
     display: grid;
     grid-template-columns: repeat(3,1fr);
 }
-
 .player, .blog{
     display: flex;
-    margin-bottom:30px;
     margin-top:31px;
 }
 
@@ -56,4 +54,28 @@ h2{
 .course img{
     height:122px;
     width:224px;
+}
+@media (max-width:688px) {
+    .container{
+        width:100%;
+        height:100%;
+    }
+    .players, .blogs, .courses{
+        grid-template-columns: repeat(1,1fr);
+    }
+    .latest-course{
+        width:100%;
+    }  
+}
+@media (min-width:689px) and (max-width:991px){
+    .container{
+        width:100%;
+        height:100%;
+    }
+    .players, .blogs, .courses{
+        grid-template-columns: repeat(2,1fr);
+    }
+    .latest-course{
+        width:100%;
+    }  
 }
