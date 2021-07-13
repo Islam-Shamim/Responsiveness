@@ -16,11 +16,11 @@ main{
 .players{
     display: grid;
     grid-template-columns: repeat(3,1fr);
+    margin-bottom:30px;
 }
 .player, .blog{
     display: flex;
     margin-top:31px;
-    margin-bottom:30px;
     align-items: center;
 }
 
@@ -31,6 +31,7 @@ main{
 .blogs{
     display:grid;
     grid-template-columns: repeat(2,1fr);
+    margin-bottom:30px;
 }
 .img-detail{
     margin-right:30px;
@@ -47,7 +48,7 @@ main{
     height:382px;
     width:870px;
     background-color: white;
-    margin:20px;
+    margin-bottom:20px;
     padding: 30px;
     border-radius: 10px;
 }
@@ -55,12 +56,10 @@ main{
     display:grid;
     grid-template-columns: repeat(3,1fr);
     margin-bottom:30px;
-    margin-top:31px;
 }
 .course{
     box-shadow: 10px 10px 20px gray;
     margin-right:25px;
-    margin-top:20px;
     padding:20px;
     border-radius: 10px;
 }
@@ -83,6 +82,9 @@ main{
     .blog, .player{
         flex-direction: column;
     }
+    .course{
+        margin-top: 20px;
+    }
     .courses{
         margin-left:30px;
     }
@@ -98,6 +100,11 @@ main{
     }
     .players, .blogs, .courses{
         grid-template-columns: repeat(2,1fr);
+    }
+    .course{
+        margin-top: 20px;
+        /* margin-left:20px; */
+        text-align:center;
     }
     .latest-course{
         width:100%;
