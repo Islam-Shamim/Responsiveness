@@ -5,10 +5,6 @@ main{
     background-color: #9f9f9f;
     height:
 }
-.title{
-    margin:0px;
-}
-
 .container{
     background-color: white;
     width:870px;
@@ -64,6 +60,7 @@ main{
 .course{
     box-shadow: 10px 10px 20px gray;
     margin-right:25px;
+    margin-top:20px;
     padding:20px;
     border-radius: 10px;
 }
@@ -85,6 +82,9 @@ main{
     }
     .blog, .player{
         flex-direction: column;
+    }
+    .courses{
+        margin-left:30px;
     }
     .latest-course{
         width:100%;
