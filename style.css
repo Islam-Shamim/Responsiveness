@@ -15,6 +15,7 @@ main{
     height:680px;
     padding:30px;
     margin:20px;
+    border-radius: 10px;
 }
 .players{
     display: grid;
@@ -23,6 +24,7 @@ main{
 .player, .blog{
     display: flex;
     margin-top:31px;
+    margin-bottom:30px;
     align-items: center;
 }
 
@@ -46,11 +48,12 @@ main{
 }
 
 .latest-course{
-    height:362px;
+    height:382px;
     width:870px;
     background-color: white;
     margin:20px;
     padding: 30px;
+    border-radius: 10px;
 }
 .courses{
     display:grid;
@@ -60,7 +63,7 @@ main{
 }
 .course{
     box-shadow: 10px 10px 20px gray;
-    margin:10px;
+    margin-right:25px;
     padding:20px;
     border-radius: 10px;
 }
